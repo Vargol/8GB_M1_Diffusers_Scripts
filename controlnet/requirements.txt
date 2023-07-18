@@ -1,0 +1,3 @@
+transformers
+mathplotlib
+controlnet_aux
