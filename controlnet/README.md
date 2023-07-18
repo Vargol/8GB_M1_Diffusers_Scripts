@@ -18,8 +18,8 @@ img2pose2img.py
 Takes an image, extracts a pose image from it and then uses controlnet to generate a image from a prompt.
 ![A ballerina in a pose](ballerina.png)![A robot in the same pose](robot.png)
 
-The script requires transformers, mathplotlib and controlnet_aux to be installed in your python environment
+The script requires transformers, matplotlib and controlnet_aux to be installed in your python environment
 
-`pip install transformers mathplotlib controlnet_aux`
+`pip install transformers matplotlib controlnet_aux`
 
 
