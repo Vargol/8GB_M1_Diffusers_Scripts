@@ -6,6 +6,7 @@ before running thses scripts you will need to set PYTORCH_ENABLE_MPS_FALLBACK
 pose2img.py
 
 Takes a pose picture, as output by openpose and uses it 'control' Stable Diffusion so something in the generated image will have the same pose.
+
 ![A pose image](cnpose.png)![A ballerina in the same pose](ballerina.png)
 
 The script requires transformers to be installed in your python environment
