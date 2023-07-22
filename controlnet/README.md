@@ -41,4 +41,4 @@ img2canny2img.py
 
 Takes an image, runs it through canny to extract an outline, uses that to create a new image
 
-![a robot](robot.png)![an online of a robot](canny_output.png)![A robot in the same pose but in a new situation](ici_robot.png)
+![a robot](robot.png)![an online of a robot](canny_output.png)![A robot in the same pose but in a new situation](ici-robot.png)
