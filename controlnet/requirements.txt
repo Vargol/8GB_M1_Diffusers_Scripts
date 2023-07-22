@@ -1,3 +1,4 @@
+opencv-python
 transformers
 matplotlib
 controlnet_aux
