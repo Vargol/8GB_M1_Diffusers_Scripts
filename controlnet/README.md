@@ -3,6 +3,8 @@ before running thses scripts you will need to set PYTORCH_ENABLE_MPS_FALLBACK
 
 `export PYTORCH_ENABLE_MPS_FALLBACK=1`
 
+
+
 pose2img.py
 
 Takes a pose picture, as output by openpose and uses it 'control' Stable Diffusion so something in the generated image will have the same pose.
@@ -12,6 +14,8 @@ Takes a pose picture, as output by openpose and uses it 'control' Stable Diffusi
 The script requires transformers to be installed in your python environment
 
 `pip install transformers`
+
+
 
 img2pose2img.py 
 
@@ -23,3 +27,9 @@ The script requires transformers, matplotlib and controlnet_aux to be installed 
 `pip install transformers matplotlib controlnet_aux`
 
 
+
+img2canny2img.py
+
+Takes an image, runs it through canny to extract an outline, uses that to create a new image
+
+![a robot](robot.png)!i![an online of a robot][A robot in the same posei but in a new situation](ici_robot.png)
